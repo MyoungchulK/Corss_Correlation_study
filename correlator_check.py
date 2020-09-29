@@ -118,7 +118,7 @@ plt.title(r'Unbias Normalization Factor', y=1.02,fontsize=15)
 plt.plot(lag,corr01,'-',lw=2,color='red',alpha=0.7)
 
 #plt.show()
-fig.savefig('corr_new_nor.png',bbox_inches='tight')#,dpi=100)
+fig.savefig('new_nor_factor.png',bbox_inches='tight')#,dpi=100)
 plt.close()
 
 print('Done!')
